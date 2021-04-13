@@ -25,7 +25,7 @@ data "template_cloudinit_config" "cloudinit-jenkins" {
   }
 }
 
-data "template_cloudinit_config" "cloudinit-springboot" {
+data "template_cloudinit_spring_config" "cloudinit-springboot" {
   gzip          = false
   base64_encode = false
 
