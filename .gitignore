@@ -1,2 +1,3 @@
 .idea
-./packer_jenkins_terraform/terraform
+./packer_jenkins_terraform/.terraform
+./packer_jenkins_terraform/.terraform.lock.hcl
