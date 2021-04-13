@@ -65,6 +65,6 @@ resource "aws_instance" "app-instance" {
   key_name = aws_key_pair.mykeypair.key_name
 
   # user data
-  user_data = data.template_cloudinit_spring_config.cloudinit-springboot.rendered
+  user_data = data.template_cloudinit_config.cloudinit-springboot.rendered
 }
 
