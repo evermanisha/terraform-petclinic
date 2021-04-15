@@ -1,8 +1,3 @@
 #!/bin/bash
 
-git clone https://github.com/evermanisha/spring-petclinic-rest
-
-cd spring-petclinic-rest/
-mvn install
-cd target
-java -jar spring-petclinic-rest-2.4.2.jar
+java -jar /home/ubuntu/spring-petclinic-rest/target/spring-petclinic-rest-2.4.2.jar
